@@ -1,0 +1,162 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(/images/CarbonFiberBG.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	background-image: url(/images/banner\ 1.png);
+	background-repeat: no-repeat;
+	height: 190px;
+	background-color: black;
+}
+nav{
+	margin-left: 3%;
+  	margin-right: 3%;
+ 	 display: flex;
+  	align-items: center;
+  	height: 200px;
+}
+#Links{
+  margin-left: auto;
+}
+#Links a {
+  margin-left: 12px;
+}
+
+#Content{
+	display: flex;
+	width: 1440px;
+	height: 2380px;
+	margin: auto;
+	background-color: #7d7777;
+}
+
+#GearsL1{
+	position: absolute;
+	top: 0px;
+}
+#GearsL2{
+	position: absolute;
+	top: 1018px;
+}
+#GearsL3{
+	position: absolute;
+	top: 1660px;
+}
+#GearsR1{
+	position: absolute;
+	top: 0;
+	right: 0px;
+}
+#GearsR2{
+	position: absolute;
+	top: 494px;
+	right: 0px;
+}
+#GearsR3{
+	position: absolute;
+	top: 1542px;
+	right: 0px;
+}
+
+#InfoGif{
+	position: absolute;
+	top: 80px;
+	left: 940px;
+}
+#InfoTxt{
+	position: absolute;
+	top: 80px;
+	left: 160px;
+	background-color: rgba(196,196, 196,.8);
+}
+#Table_01 {
+	position:absolute;
+	top: 190px;
+	width:1440px;
+	height: 2380px;
+}
+
+#Info_ {
+	position:absolute;
+	left:120px;
+	top: 45px;;
+	width:1320px;
+	height:450px;
+}
+
+#Factory_ {
+	position:absolute;
+	left:0px;
+	top: 568px;;
+	width:1320px;
+	height:450px;
+}
+
+#EnterFactory{
+	position: absolute;
+	left: 120px;
+	top: 604px;
+}
+
+#FactoryTxt{
+	position: absolute;
+	top: 604px;
+	left: 530px;
+	background-color: rgba(196,196, 196,.8);
+}
+
+#ScrapYard_ {
+	position:absolute;
+	left:120px;
+	top:1092px;
+	width:1320px;
+	height:450px;
+}
+#SYTxt{
+	position: absolute;
+	top: 1126px;
+	left: 150px;
+	background-color: rgba(196,196, 196,.8);
+}
+#SY{
+	position: absolute;
+	top: 1126px;
+	left: 941px;
+}
+
+#BluePrint_ {
+	position:absolute;
+	left:0px;
+	top:1604px;
+	width:1320px;
+	height:600px;
+}
+#BPTxt{
+	position: absolute;
+	top: 1635px;
+	left: 120px;
+	background-color: rgba(196,196, 196,.8);
+}
+
+#Footer_ {
+	position:absolute;
+	left:500px;
+	bottom: 0px;
+	width:100;
+	height:120px;
+}
+#Foot{
+	background-color: black;
+	width: 100%;
+	height: 120px;
+	position: absolute;
+	bottom: 0px;
+}
